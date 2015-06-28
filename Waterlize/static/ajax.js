@@ -1,6 +1,6 @@
 function ajax_run() {
     $.ajax({
-        url: 'http://127.0.0.1:8000/json',
+        url: 'http://192.168.43.48:8000/json',
         type: 'get', //this is the default though, you don't actually need to always mention it
         success: function (data) {
             values = JSON.parse(data)
