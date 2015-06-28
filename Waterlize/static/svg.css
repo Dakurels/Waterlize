@@ -1,0 +1,16 @@
+rect {
+    fill: none;
+    stroke: black;
+}
+
+.gray {
+    fill: gray;
+}
+
+.red {
+    fill: red;
+}
+
+.green {
+    fill: green;
+}

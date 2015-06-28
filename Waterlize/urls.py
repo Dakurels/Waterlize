@@ -20,5 +20,8 @@ from . import views
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^hello/', views.hello),
+    url(r'^map/', views.hello),
+    url(r'^json/', views.get_ajax_json),
+    url(r'^door/', views.change_door),
+    url(r'^temp/', views.change_temp),
 ]
